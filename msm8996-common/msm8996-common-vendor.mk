@@ -579,9 +579,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     QtiTelephonyService \
     TimeService \
-    datastatusnotification \
     embms \
-    fastdormancy \
     shutdownlistener \
     CNEService \
     QtiTetherService \
