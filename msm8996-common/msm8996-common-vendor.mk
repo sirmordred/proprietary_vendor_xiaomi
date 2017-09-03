@@ -576,8 +576,10 @@ PRODUCT_PACKAGES += \
     TimeService \
     embms \
     shutdownlistener \
+    CNEService \
     QtiTetherService \
     com.qualcomm.location \
+    dpmserviceapp \
     qcrilmsgtunnel \
     colorservice \
     ims \
