@@ -162,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
@@ -211,6 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
@@ -224,6 +226,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -332,6 +335,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmorpho_image_stab4.so:system/vendor/lib/libmorpho_image_stab4.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmorpho_panorama_gp.so:system/vendor/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libmpbase.so:system/vendor/lib/libmpbase.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -356,6 +360,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
@@ -364,6 +371,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
@@ -403,6 +411,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:system/vendor/lib64/hw/activity_recognition.msm8996.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
@@ -487,6 +496,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libhdr_tm.so:system/vendor/lib64/libhdr_tm.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
@@ -551,6 +561,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
