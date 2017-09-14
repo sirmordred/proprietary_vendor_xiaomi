@@ -578,6 +578,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
+    libgpustats \
     QtiTelephonyService \
     TimeService \
     embms \
