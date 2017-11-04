@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/msm8996-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/msm8996-common/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/xiaomi/msm8996-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/msm8996-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/msm8996-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/msm8996-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -143,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
