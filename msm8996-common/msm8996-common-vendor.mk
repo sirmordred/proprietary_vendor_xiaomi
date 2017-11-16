@@ -354,6 +354,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libwifi-hal-common.so:system/vendor/lib/libwifi-hal-common.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
@@ -547,6 +548,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libwifi-hal-common.so:system/vendor/lib64/libwifi-hal-common.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
