@@ -26,6 +26,7 @@ LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -35,6 +36,7 @@ LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_pan
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -44,6 +46,7 @@ LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -53,6 +56,7 @@ LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_pane
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 endif
