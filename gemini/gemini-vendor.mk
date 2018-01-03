@@ -29,13 +29,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_primax_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_primax_chromatix.xml \
-    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_zap.b00 \
-    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_zap.b01 \
-    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_zap.b02 \
-    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.elf:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_zap.elf \
-    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_zap.mdt \
-    vendor/xiaomi/gemini/proprietary/etc/firmware/tfa9891.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tfa9891.cnt \
-    vendor/xiaomi/gemini/proprietary/etc/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tfa98xx.cnt \
+    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b00 \
+    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b01 \
+    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b02 \
+    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.elf \
+    vendor/xiaomi/gemini/proprietary/etc/firmware/a530_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.mdt \
+    vendor/xiaomi/gemini/proprietary/etc/firmware/tfa9891.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa9891.cnt \
+    vendor/xiaomi/gemini/proprietary/etc/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/xiaomi/gemini/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/gemini/proprietary/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \

@@ -67,34 +67,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/dpm.conf \
     vendor/xiaomi/msm8996-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_gpmu.fw2 \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_pfp.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_pm4.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v1_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v1_pfp.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v1_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v1_pm4.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v2_seq.fw2 \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v3_seq.fw2 \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv.bin \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv.img \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v1_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pfp.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v1_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pm4.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv.bin \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_1.3.bin \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_2.1.bin \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.0.bin \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.2.bin \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv.img \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_1.3.tlv \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_2.1.tlv \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.0.tlv \
+    vendor/xiaomi/msm8996-common/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.2.tlv \
     vendor/xiaomi/msm8996-common/proprietary/etc/modem/Diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/modem/Diag.cfg \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/ConnectivityExt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
